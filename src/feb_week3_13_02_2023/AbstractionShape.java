@@ -1,4 +1,4 @@
-package feb_week3_13_02;
+package feb_week3_13_02_2023;
 
 // rule1: in any simple class if u declare a method,that method need to be declared as abstract method.
 // rule2: in any simple class if u declare an abstract(),that class need to be declared as abstract class.
