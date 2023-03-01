@@ -62,12 +62,6 @@ class StringWays{
   String Aryaman="Aryaman";
         System.out.println("nameArya value : " + nameArya.compareTo(Aryaman) );
 
-
-
-
-
-
-
     }
 }
 public class StringDemo {

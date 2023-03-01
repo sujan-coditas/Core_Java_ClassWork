@@ -6,8 +6,7 @@ public class Register {
                try {
                    throw new NonCitizenshipException(" \nYou are not an Indian citizen, so you are not eligible for voting");
                } catch (NonCitizenshipException e) {
-                   System.out.println("you need to be an indian to vote");
-               }
+e.printStackTrace();               }
            } else if (age < 18) {
                try {
                    throw new AgeNotValidException("\n You are not eligible for voting because your age is less than 18");
