@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 
-import static March_2023.Week1_01_march_2023.CafeAllocationSystem.TableBooking.TableNo;
 
 public class Menu {
 

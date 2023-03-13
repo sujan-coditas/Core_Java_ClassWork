@@ -17,10 +17,8 @@ public class Reservation {
                     break;
 
                 case 1:
-                    TableBooking booking = new TableBooking();
-                    Thread bookingThread=new Thread(booking);
-                    bookingThread.start();
-                    bookingThread.join();
+                    TableBooking tableBooking=new TableBooking();
+                    tableBooking.check();
                     break;
 
                 case 2:
@@ -31,13 +29,18 @@ public class Reservation {
 
                 case 3:
                     // code for ordering coffee
-                    PlaceOrder placeOrder=new PlaceOrder();
-                    try {
-                        placeOrder.Order();
-                    } catch (Exception e) {
-                        System.out.println("u must  order coffee");
+
+                    if(TableBooking.IsReserved == false){
+                        try{
+                            throw new ReservationNotFoundException();
+                        } catch (ReservationNotFoundException e) {
+                        }
                     }
+                    else {
+                        PlaceOrder placeOrder = new PlaceOrder();
+                        placeOrder.Order();                    }
                     break;
+
 
                 default:
                     System.out.println("Enter valid Option ");
