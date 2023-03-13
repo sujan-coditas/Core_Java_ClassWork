@@ -98,9 +98,6 @@ deposit
 Enter your Account number
 233456665555
 Account Not Found
-
-Account Not Found
-
 Enter choice :
  0 : EXIT
  1 : Add Bank Account
@@ -129,7 +126,6 @@ Enter your Account number
 Enter the Amount you want to Deposit
 56789
 Total Balance is : 57789
-Account Not Found
 
 Enter choice :
  0 : EXIT
@@ -145,7 +141,47 @@ Enter the Amount you want to Withdraw
 1000000
 Insufficient Balance in the Account
 
-Account Not Found
+
+Enter choice :
+ 0 : EXIT
+ 1 : Add Bank Account
+ 2.Deposit Amount
+ 3.Withdraw Cash
+ 4. Account Details
+1
+Enter choice :
+ 0 : EXIT
+ 1 : Saving Account
+ 2.Current Account
+1
+Enter Name
+sujan
+Enter Address
+sdhgfdf
+Enter Email
+ghsdhsdf
+Enter Phone NUmber
+3445555555
+Congratulations !! sujan your Savings Account has been created
+ your account number is :: 4028643875371
+Enter choice :
+ 0 : EXIT
+ 1 : Saving Account
+ 2.Current Account
+0
+Enter choice :
+ 0 : EXIT
+ 1 : Add Bank Account
+ 2.Deposit Amount
+ 3.Withdraw Cash
+ 4. Account Details
+3
+Withdraw
+Enter your Account number
+4028643875371
+Enter the Amount you want to Withdraw
+100
+Insufficient Balance in the Account
 
 Enter choice :
  0 : EXIT
@@ -154,30 +190,11 @@ Enter choice :
  3.Withdraw Cash
  4. Account Details
 4
-Account Number :5771349025039
-Account Type :Savings
-Account Holder Name : sujan
-Address : nanded
-Phone No : 4567882345
-Total Balance : 0
-
+Account Number: 4028643875371
+Account Type: Savings
+Account Holder Name: sujan
+Address: sdhgfdf
+Phone No: 3445555555
+Total Balance: 0
 ----------------------------------------
-
-Account Number :3463929257884
-Account Type :Current
-Account Holder Name : pratiksha
-Address : karad
-Phone No : 5432167896
-Total Balance : 0
-
-----------------------------------------
-
-Enter choice :
- 0 : EXIT
- 1 : Add Bank Account
- 2.Deposit Amount
- 3.Withdraw Cash
- 4. Account Details
-0
-
 Process finished with exit code 0*/
